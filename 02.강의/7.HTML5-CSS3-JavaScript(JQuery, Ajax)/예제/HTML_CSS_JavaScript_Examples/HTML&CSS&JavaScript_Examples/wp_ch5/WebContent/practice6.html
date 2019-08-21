@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+*		{ margin:0; padding: 0; }
+body	{
+	font-family: "맑은 고딕";
+	font-size: 0.75em;
+	color: #333;
+}
+
+div {
+	width: 600px;
+	height: 100px;
+	border: 1px solid #111;
+	position: relative;
+}
+
+div strong, a {
+	display: block;
+}
+
+div strong, a, p {
+	position: absolute;
+}
+
+.title {
+	width: 50px;
+	height: 20px;
+	background-color: #f00;
+	z-index: 5;
+	
+}
+
+
+.contents {
+	width: 100px;
+	height: 30px;
+	background-color: #00f;
+	z-index: 10;
+}
+
+.profile {
+	width: 80px;
+	height: 80px;
+	background-color: #0f0;
+	z-index: 9;
+}
+
+.btn {
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	z-index: 11;
+}
+
+
+
+</style>
+</head>
+<body>
+		<div>
+			<strong class="title">name 지나가다가</strong>
+			<p class="contents">
+				내용
+				별루입니다.<br>
+				비번:1234 -,.-
+			</p>
+			<strong class="profile">이모티콘</strong>
+			<a class="btn" href='' data-no=''>삭제</a>
+		</div>
+</body>
+</html>
